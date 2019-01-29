@@ -1,0 +1,5 @@
+- add pudding
+- add face
+- add play music maybe yt must be in background
+- change size and speed of puddings
+- btn share
