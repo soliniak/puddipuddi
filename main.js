@@ -116,7 +116,7 @@ puddings.forEach(puddingGif => {
 const refresBtn = document.querySelector(".refresh-icon");
 
 refresBtn.addEventListener("click", () => {
-  // location.reload();
+  location.reload();
 });
 
 // change pudding
