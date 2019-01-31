@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Puddi Puddi SWAG</title>
+    <title>Puddy-Puddy</title>
     <meta property="og:title" content="Puddi Puddi SWAG" />
     <meta property="og:url" content="http://houseofweb.pl/pudipudi/" />
     <meta
@@ -24,30 +24,18 @@
     <header class="header__menu">
       <nav class="menu">
         <ul class="menu-list">
+          <li class="menu--item volume-icon">
+            <i class="fas fa-volume-up"></i>
+          </li>
+          <li class="menu--item pause-icon"><i class="fas fa-pause"></i></li>
           <li class="menu--item playlist-icon">
             <i class="fas fa-headphones"></i>
-            <ul class="playlist">
-              <li class="playlist--item">
-                <a href="#" class="playlist--link" data-link="qp5UtJJbgQE">
-                  Motez - The Future (KC Lights Remix)
-                </a>
-              </li>
-              <li class="playlist--item">
-                <a href="#" class="playlist--link" data-link="qp5UtJJbgQE">
-                  Motez - The Future (KC Lights Remix)
-                </a>
-              </li>
-              <li class="playlist--item">
-                <a href="#" class="playlist--link" data-link="qp5UtJJbgQE">
-                  Motez - The Future (KC Lights Remix)
-                </a>
-              </li>
-            </ul>
+            <ul class="playlist"></ul>
           </li>
           <li class="menu--item pudding-icon">
             <img src="puddy-menu.png" alt="" class="puddy--menu" />
           </li>
-          <li class="menu--item face-icon"><i class="far fa-meh"></i></li>
+          <!-- <li class="menu--item face-icon"><i class="far fa-meh"></i></li> -->
           <li class="menu--item refresh-icon">
             <i class="fas fa-sync-alt"></i>
           </li>
@@ -59,19 +47,28 @@
       <div class="add--pudding__container">
         <div class="add--pudding">
           <button class="close"><i class="fas fa-times"></i></button>
-          <p>Change pudding. Paste image url</p>
-          <input class="input input--pudding" type="url" value="paste url" />
+          <p>Change pudding.</p>
+          <div class="puddings__container"></div>
+
+          <p>Or paste image url</p>
+          <br />
+          <input
+            class="input input--pudding"
+            type="url"
+            value=""
+            placeholder="image url"
+          />
           <button class="change--cake--btn">change</button>
         </div>
       </div>
-      <div class="add--face__container">
+      <!-- <div class="add--face__container">
         <div class="add--face">
           <button class="close"><i class="fas fa-times"></i></button>
           <p>Change face. Paste image url</p>
           <input class="input input--face" type="url" value="paste url" />
           <button class="change--face--btn">change</button>
         </div>
-      </div>
+      </div> -->
       <div class="menu--btn"><i class="fas fa-ellipsis-v"></i></div>
       <div class="instruction__container">
         <p class="instruction--text">You can change text!</p>
@@ -81,11 +78,13 @@
           class="arrow--instruction"
         />
       </div>
-      <h1 contenteditable="true">Puddi Puddi</h1>
+      <h1 contenteditable="true">Puddy Puddy</h1>
       <div class="gif"><!-- <div class="face"></div> --></div>
       <!-- <img src="pudipudi.gif" alt="Puddi Puddi :D" class="puddi-gif" /> -->
 
       <section class="container">
+        <div class="pudding"></div>
+        <div class="pudding"></div>
         <div class="pudding"></div>
         <div class="pudding"></div>
         <div class="pudding"></div>
