@@ -98,6 +98,8 @@ const puddingsContainer = document.querySelector(".puddings__container");
 const puddings = [
   "https://s3.amazonaws.com/assets.ordienetworks.com/misc/Baby%20Ninja.gif",
   "https://us.v-cdn.net/5020794/uploads/editor/18/mpegbv0idlzd.gif",
+  "https://dphz.github.io/index_files/133b87d1a9845a0588823811f18c012c_380x380.gif",
+  "https://orig09.deviantart.net/36ec/f/2014/151/a/c/ac8cde7e345cacaf3412d009d3584e33-d7k734c.gif",
   "https://media.giphy.com/media/EIZCMrLTkVJHa/giphy.gif",
   "http://www.squeeze.sk/images/loading.gif",
   "https://cdn2.scratch.mit.edu/get_image/user/10982092_90x90.png",
